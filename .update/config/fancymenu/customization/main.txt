@@ -1,0 +1,361 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 104
+  action = movebutton
+  y = 35
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 35
+  action = movebutton
+  y = 159
+}
+
+customization {
+  identifier = %id=4936%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 86
+  action = movebutton
+  y = 184
+}
+
+customization {
+  identifier = %id=4936%
+  width = 50
+  action = resizebutton
+  advanced_width = 100
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 35
+  action = movebutton
+  y = 259
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 150
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 144
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 122
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 115
+  action = movebutton
+  y = 159
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 20
+  action = resizebutton
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 86
+  action = movebutton
+  y = 209
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 100
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 89
+  action = movebutton
+  y = 159
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 86
+  action = movebutton
+  y = 234
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 100
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 63
+  action = movebutton
+  y = 159
+}
+
+customization {
+  advanced_height = {"placeholder":"guiheight"}
+  orientation = top-left
+  looping = false
+  video = config/fancymenu/assets/background.mp4
+  advanced_posx = 0
+  advanced_width = {"placeholder":"guiwidth"}
+  advanced_posy = 0
+  islocal = true
+  volume = 100
+  x = 0
+  width = 960
+  action = custom_layout_element:fancymenu_extension:video_item
+  actionid = 351ccefd-48e4-4c5f-b67b-d063490f300d1708136323625
+  y = 0
+  height = 505
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 500d9a97-0e7a-4f9d-978a-6aec223d5d7a1708120200872
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 149
+  action = deep_customization_element:title_screen_branding
+  actionid = 02bd3c27-91cf-49a4-8f88-a6f7405f83c91708120200891
+  y = 275
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 94bbd147-8c0d-48e0-ba7a-7fa028fa10b21708120200891
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a04f78ec-dccf-4675-9ed9-2d679ffbe49f1708120200891
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d62272cb-e5e6-48ee-a344-f13c43c6a15f1708120200892
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3a320cd6-6a99-4fc0-9b1c-75f1cd5b30001708120200893
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.worldselection.SelectWorldScreen%btnaction_splitter_fm%
+  label = Singleplayer
+  advanced_width = 100
+  loopbackgroundanimations = true
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 35
+  width = 100
+  action = addbutton
+  actionid = 10746d71-73e7-4fad-87a7-ef26929855811708121444660
+  y = 109
+  height = 20
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = false
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 175df333-ebbe-4978-846a-6909523741db1708120614949
+  playername = Razmakaz
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = element
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/c55bdb23be7077fae5b44b5f1357f9dabf37771aa0873a65a190f60094735d2f
+  crouching = false
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 158
+  width = 18
+  parrot_left_shoulder = false
+  y = 118
+  parrot = true
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen%btnaction_splitter_fm%
+  label = Multiplayer
+  advanced_width = 100
+  loopbackgroundanimations = true
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = 35
+  width = 100
+  action = addbutton
+  actionid = b12f23f0-0c24-4506-9ad3-182071dd16621708121903478
+  y = 134
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/assets/minecraft_title.png
+  orientation = mid-centered
+  x = -112
+  width = 211
+  action = addtexture
+  actionid = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  y = -164
+  height = 73
+}
+
+customization {
+  audio_source:a460ad4c-de6c-41bd-8039-4c296fae7d871708123767115 = config/fancymenu/assets/aquatic-ambience.ogg;EXTERNAL_LOCAL;150;0
+  orientation = element
+  loop = true
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  channel = music
+  x = -58
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 5a8cb775-2269-4a01-b67d-e777eaa0b61c1708122513076
+  y = 18
+  once_per_session = false
+  height = 50
+}
+
+customization {
+  path = config/fancymenu/assets/yxw4e70jmgl71.gif
+  orientation = element
+  orientation_element = 367590eb-3f80-4ce1-89f3-7b0848b5acf11708120552938
+  x = -12
+  width = 125
+  action = addtexture
+  actionid = dda8d11a-3ca6-47ce-9396-df34f6c8afde1708124664935
+  y = 167
+  height = 100
+}
+

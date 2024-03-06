@@ -1,0 +1,23 @@
+
+["Tier Rendering Configs"]
+	#Should Block Outline be Rendered on Upgraded Tiers?
+	"Render Tier Outlines" = true
+	#How Fast Should Colors Cycle on Tier 5?
+	#Range: 1 ~ 100
+	"Cycle Speed" = 10
+	#Color for Base Outline
+	#Range: -16777216 ~ -1
+	"Base Color" = -8355712
+	#Color for Tier 1 Outline
+	#Range: -16777216 ~ -1
+	"Tier 1 Color" = -65536
+	#Color for Tier 2 Outline
+	#Range: -16777216 ~ -1
+	"Tier 2 Color" = -16711809
+	#Color for Tier 3 Outline
+	#Range: -16777216 ~ -1
+	"Tier 3 Color" = -256
+	#Color for Tier 4 Outline
+	#Range: -16777216 ~ -1
+	"Tier 4 Color" = -16733441
+

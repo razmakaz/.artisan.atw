@@ -1,0 +1,140 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -12,
+                "bottom": 12
+            },
+            "SORT_ROWS": {
+                "bottom": 24
+            },
+            "PROFILE_SELECTOR": {
+                "bottom": -190
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -5,
+                "top": 45
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 30
+            }
+        }
+    },
+    "thetestmod.bettercrates.gui.GuiBase9Rows": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -6,
+                "bottom": -3
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -18
+            },
+            "SORT": {
+                "top": -18
+            },
+            "SORT_COLUMNS": {
+                "top": -18
+            },
+            "SORT_ROWS": {
+                "top": -18
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 11,
+                "top": 46
+            },
+            "SETTINGS": {
+                "horizontalOffset": -5,
+                "top": 31
+            }
+        }
+    },
+    "thetestmod.bettercrates.gui.GuiBase13Rows": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -5,
+                "bottom": -9
+            },
+            "MOVE_TO_PLAYER": {
+                "top": -14
+            },
+            "SORT": {
+                "top": -14
+            },
+            "SORT_COLUMNS": {
+                "top": -14
+            },
+            "SORT_ROWS": {
+                "top": -14
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 44,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
+    },
+    "de.mari_023.ae2wtlib.wct.WCTScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 24,
+                "bottom": 68
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 23,
+                "top": -16
+            },
+            "SORT": {
+                "horizontalOffset": 23,
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 23,
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 23,
+                "top": -16
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -21
+            }
+        }
+    },
+    "cy.jdkdigital.productivebees.container.gui.BreedingChamberScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -4,
+                "bottom": -15
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 10,
+                "top": -15
+            },
+            "SORT": {
+                "horizontalOffset": 10,
+                "top": -15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 10,
+                "top": -15
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 10,
+                "top": -15
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 45,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 28,
+                "top": -20
+            }
+        }
+    }
+}
